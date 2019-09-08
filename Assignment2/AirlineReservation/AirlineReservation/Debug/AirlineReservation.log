@@ -1,0 +1,126 @@
+﻿  AirlineReservation.cpp
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(40): error C2660: 'reserveseat': function does not take 0 arguments
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(14): note: see declaration of 'reserveseat'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(42): error C2065: 'airlinedb': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(44): error C2065: 'airlinedb': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(46): error C2065: 'airlinedb': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\airlinereservation.cpp(48): error C2065: 'airlinedb': undeclared identifier
+  Database.cpp
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(12): error C2653: 'Database': is not a class or namespace name
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(14): error C2065: 'mflights': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(17): error C2653: 'Database': is not a class or namespace name
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(19): error C2065: 'mflights': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(19): error C3312: no callable 'begin' function found for type 'unknown-type'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(19): error C3312: no callable 'end' function found for type 'unknown-type'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(20): error C2065: 'flight': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(21): error C2065: 'flight': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(27): error C2653: 'Database': is not a class or namespace name
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\database.cpp(29): error C2065: 'mflights': undeclared identifier
+  Flight.cpp
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(14): error C2653: 'Flight': is not a class or namespace name
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(14): error C2039: 'string': is not a member of 'std'
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(14): error C2143: syntax error: missing ',' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(15): error C2065: 'departurecity': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(15): error C2065: 'destinationcity': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(15): error C2065: 'flightno': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(18): error C2550: 'AirlineRSystem::Flight': constructor initializer lists are only allowed on constructor definitions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(19): error C2065: 'totalseats': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(21): error C2065: 'mfreeseats': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(23): warning C4508: 'AirlineRSystem::Flight': function should return a value; 'void' return type assumed
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(25): error C2143: syntax error: missing ';' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(25): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(26): error C2270: 'Getdeparturecity': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(26): error C2059: syntax error: '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(26): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(26): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(31): error C2143: syntax error: missing ';' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(31): error C2086: 'const int AirlineRSystem::string': redefinition
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(25): note: see declaration of 'AirlineRSystem::string'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(31): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(32): error C2270: 'Getdestinationcity': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(32): error C2059: syntax error: '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(32): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(32): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(37): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(38): error C2270: 'Getflightno': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(39): error C2065: 'mflightno': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(43): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(43): error C2065: 'User': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(43): error C2065: 'user': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(43): error C2182: 'reserveseat': illegal use of type 'void'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(44): error C2448: 'AirlineRSystem::reserveseat': function-style initializer appears to be a function definition
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(50): error C2039: 'vector': is not a member of 'std'
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(50): error C2143: syntax error: missing ';' before '<'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(50): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(51): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(51): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(55): error C2039: 'vector': is not a member of 'std'
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(55): error C2143: syntax error: missing ';' before '<'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(55): error C2086: 'int AirlineRSystem::vector': redefinition
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(50): note: see declaration of 'AirlineRSystem::vector'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(55): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(56): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(56): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(60): error C2510: 'Flight': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(61): error C2270: 'display': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(62): error C2065: 'cout': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\flight.cpp(62): error C2065: 'endl': undeclared identifier
+  User.cpp
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(10): error C2653: 'User': is not a class or namespace name
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(10): error C2039: 'string': is not a member of 'std'
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(10): error C2143: syntax error: missing ',' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(11): error C2065: 'firstName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(11): error C2065: 'lastName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(11): error C2065: 'idno': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(13): error C2550: 'AirlineRSystem::User': constructor initializer lists are only allowed on constructor definitions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(16): warning C4508: 'AirlineRSystem::User': function should return a value; 'void' return type assumed
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(19): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(19): error C2143: syntax error: missing ',' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(21): error C2065: 'mFirstName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(21): error C2065: 'firstName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(24): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(24): error C2143: syntax error: missing ',' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(26): error C2065: 'mLastName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(26): error C2065: 'lastName': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(28): error C2143: syntax error: missing ';' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(28): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(29): error C2270: 'getFirstName': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(29): error C2059: syntax error: '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(29): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(29): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(32): error C2143: syntax error: missing ';' before '&'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(32): error C2086: 'const int AirlineRSystem::string': redefinition
+  c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(28): note: see declaration of 'AirlineRSystem::string'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(32): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(33): error C2270: 'getLastName': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(33): error C2059: syntax error: '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(33): error C2143: syntax error: missing ';' before '{'
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(33): error C2447: '{': missing function header (old-style formal list?)
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(37): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(38): error C2270: 'getidno': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(39): error C2065: 'midno': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(42): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(43): error C2065: 'mseatno': undeclared identifier
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(46): error C2510: 'User': left of '::' must be a class/struct/union
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(46): error C2270: 'getseatno': modifiers not allowed on nonmember functions
+c:\users\jananis\source\repos\airlinereservation\airlinereservation\user.cpp(47): error C2065: 'mseatno': undeclared identifier
+  Generating Code...
