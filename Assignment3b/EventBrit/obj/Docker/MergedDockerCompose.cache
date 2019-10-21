@@ -1,0 +1,72 @@
+networks:
+  backend: {}
+  frontend: {}
+services:
+  catalog:
+    build:
+      context: C:\Users\Jananis\source\repos\EventBrit\EventAPI
+      dockerfile: Dockerfile
+    container_name: eventscatalogapi
+    depends_on:
+    - mssqlserver
+    environment:
+      DatabaseName: eventDb
+      DatabasePassword: ProductApi(!)
+      DatabaseServer: mssqlserver
+      DatabaseUser: sa
+      ExternalCatalogBaseUrl: http://localhost:6080
+    image: events/eventapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - published: 6080
+      target: 80
+  mssqlserver:
+    container_name: eventsqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: ProductApi(!)
+    image: microsoft/mssql-server-linux:latest
+    networks:
+      backend: null
+    ports:
+    - published: 1448
+      target: 1433
+  tokenserver:
+    build:
+      context: C:\Users\Jananis\source\repos\EventBrit\TokenServiceApi
+      dockerfile: Dockerfile
+    container_name: tokenserviceapi
+    depends_on:
+    - mssqlserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      MvcClient: http://localhost:5208
+    image: jewels/tokenapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - published: 6070
+      target: 80
+  webmvc:
+    build:
+      context: C:\Users\Jananis\source\repos\EventBrit\webmvc
+      dockerfile: Dockerfile
+    container_name: webshop
+    depends_on:
+    - catalog
+    - tokenserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CallBackUrl: http://localhost:5208
+      CatalogUrl: http://catalog
+      IdentityUrl: http://10.10.10.30:6070
+    image: jewels/webmvc
+    networks:
+      frontend: null
+    ports:
+    - published: 5208
+      target: 80
+version: '3.4'

@@ -1,0 +1,6 @@
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.csproj.CoreCompileInputs.cache
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.AssemblyInfoInputs.cache
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.AssemblyInfo.cs
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.csprojAssemblyReference.cache
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.RazorAssemblyInfo.cache
+C:\Users\Jananis\source\repos\EventBrit\WebMVC\obj\Debug\netcoreapp2.1\WebMVC.RazorAssemblyInfo.cs

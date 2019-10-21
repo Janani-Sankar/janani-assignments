@@ -1,0 +1,14 @@
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.csproj.CoreCompileInputs.cache
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.AssemblyInfoInputs.cache
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.AssemblyInfo.cs
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.csprojAssemblyReference.cache
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.RazorAssemblyInfo.cache
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.RazorAssemblyInfo.cs
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\bin\Debug\netcoreapp2.1\EventAPI.deps.json
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\bin\Debug\netcoreapp2.1\EventAPI.runtimeconfig.json
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\bin\Debug\netcoreapp2.1\EventAPI.runtimeconfig.dev.json
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\bin\Debug\netcoreapp2.1\EventAPI.dll
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\bin\Debug\netcoreapp2.1\EventAPI.pdb
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.dll
+C:\Users\Jananis\source\repos\EventBrit\EventAPI\obj\Debug\netcoreapp2.1\EventAPI.pdb
